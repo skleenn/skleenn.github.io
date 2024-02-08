@@ -1,0 +1,60 @@
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 35px;
+    color: #d4868c;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-right: 35px;
+    background-color: rgb(238, 189, 199);
+    padding: 10px 22px;
+    font-size: 18px;
+    font-family: monospace;
+    transition-duration: 0.4ms;
+}
+
+button:hover{
+    background-color: rgb(214, 167, 177);
+}
+
+dialog {
+    margin: 18% auto;
+    width: 80%;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 34px;
+    border: 3;
+    border-radius: 5px;
+}
+
+dialog > p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+dialog > button{
+    margin: 8px auto;
+    text-align: center;
+}
+
+
+
+
+
